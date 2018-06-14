@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#56C2B7</color>
+    <color name="colorPrimaryDark">#00A39A</color>
+    <color name="colorAccent">#66CADB</color>
+
+
+
+    <color name="colorInputTextHint">#8497b0</color>
+    <color name="colorInputTextColor">#021b79</color>
+    <color name="colorStart">#021b79</color>
+    <color name="colorEnd">#0575e6</color>
+
+    <color name="black">#000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#FF005a9c</color>
+    <color name="lightBlue">#d6e0eb</color>
+    <color name="lighterBlue">#cdd8ec</color>
+    <color name="heading_bg">#d6d6d6</color>
+    <color name="lighter_grey">#f5f5f5</color>
+
+    <item name="low_focus_text" type="color">#969696</item>
+    <color name="bkg_light_gray">#E0E0E0</color>
+    <color name="red_text">#ff6861</color>
+    <color name="light_gray">#f6f6f6</color>
+    <color name="list_divider_bg">#ffe4e4e4</color>
+    <color name="work_header_bg">#F2F5FA</color>
+    <color name="list_row_bg">#cccccc</color>
+    <color name="notification_bg">#deebf7</color>
+
+    <color name="calenderTextColor">#7C8EA7</color>
+    <color name="calenderPrimary3">#8497b0</color>
+    <color name="calenderSecondary">#E13041</color>
+
+    <color name="selectedTextColor">#ffffff</color>
+    <color name="unSelectedTextColor">#1158b7</color>
+</resources>

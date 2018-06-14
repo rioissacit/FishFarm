@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtSlNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_centerVertical="false"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/txtSlNo"
+        android:gravity="center_horizontal"
+        android:text="Name : "
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/txtFeederType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:layout_toEndOf="@+id/txtName"
+        android:gravity="center_horizontal"
+        android:text="Feeder Type Feeder Type"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/txtQantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtName"
+        android:layout_below="@+id/txtName"
+        android:text="Qantity : "
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/txtQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFeederType"
+        android:layout_centerVertical="false"
+        android:layout_toEndOf="@+id/txtQantity"
+        android:text="1" />
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txtFeederType"
+        android:padding="6dp"
+        app:srcCompat="@drawable/delete_i" />
+</RelativeLayout>

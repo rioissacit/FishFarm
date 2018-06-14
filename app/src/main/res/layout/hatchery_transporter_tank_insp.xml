@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:focusable="true" android:focusableInTouchMode="true">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:theme="@style/EditTextInputLabelForm"
+        app:hintTextAppearance="@style/MyHintText">
+
+        <EditText
+            android:id="@+id/iedt_Juveniles"
+            style="@style/EditTextInputStyle"
+            android:hint="Number of Juveniles"
+            android:numeric="integer" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:theme="@style/EditTextInputLabelForm"
+        app:hintTextAppearance="@style/MyHintText">
+
+        <EditText
+            android:id="@+id/iedt_Body_Wt"
+            style="@style/EditTextInputStyle"
+            android:hint="Average Body Weight"
+            android:numeric="integer" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:theme="@style/EditTextInputLabelForm"
+        app:hintTextAppearance="@style/MyHintText">
+
+        <EditText
+            android:id="@+id/iedt_Tot_Wt"
+            style="@style/EditTextInputStyle"
+            android:hint="Total Weight"
+            android:numeric="integer" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:theme="@style/EditTextInputLabelForm"
+        app:hintTextAppearance="@style/MyHintText">
+
+        <EditText
+            android:id="@+id/iedt_Oxygen_Per"
+            style="@style/EditTextInputStyle"
+            android:hint="Oxygen Percentage"
+            android:numeric="integer" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_scan_bg"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>

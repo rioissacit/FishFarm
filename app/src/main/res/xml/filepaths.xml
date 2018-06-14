@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-cache-path name="picturesext" path="FishFarm/" />
+    <cache-path name="picturesint" path="FishFarm/" />
+    <external-path name="cache" path="FishFarm/" />
+    <external-cache-path name="files" path="FishFarm/" />
+    <external-path name="my_cache" path="." />
+    <external-files-path name="files" path="FishFarm/" />
+    <external-path name="external_files" path="."/>
+
+</paths>
